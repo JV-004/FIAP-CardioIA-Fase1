@@ -28,28 +28,144 @@ Os dados foram coletados de quatro instituições médicas:
 
 ## 📋 Descrição das Variáveis
 
-| Variável     | Tipo       | Descrição                                                   | Range/Valores                                                                  |
-| ------------ | ---------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| **age**      | Numérico   | Idade do paciente em anos                                   | 29-77 anos                                                                     |
-| **sex**      | Categórico | Sexo do paciente                                            | 1 = masculino, 0 = feminino                                                    |
-| **cp**       | Categórico | Tipo de dor no peito                                        | 1 = angina típica, 2 = angina atípica, 3 = dor não-anginosa, 4 = assintomático |
-| **trestbps** | Numérico   | Pressão arterial em repouso (mm Hg)                         | 94-200 mm Hg                                                                   |
-| **chol**     | Numérico   | Colesterol sérico (mg/dl)                                   | 126-564 mg/dl                                                                  |
-| **fbs**      | Categórico | Glicemia em jejum > 120 mg/dl                               | 1 = verdadeiro, 0 = falso                                                      |
-| **restecg**  | Categórico | Resultados eletrocardiográficos em repouso                  | 0 = normal, 1 = anormalidade ST-T, 2 = hipertrofia ventricular                 |
-| **thalach**  | Numérico   | Frequência cardíaca máxima alcançada                        | 71-202 bpm                                                                     |
-| **exang**    | Categórico | Angina induzida por exercício                               | 1 = sim, 0 = não                                                               |
-| **oldpeak**  | Numérico   | Depressão ST induzida por exercício                         | 0.0-6.2                                                                        |
-| **slope**    | Categórico | Inclinação do segmento ST de pico                           | 1 = ascendente, 2 = plano, 3 = descendente                                     |
-| **ca**       | Numérico   | Número de vasos principais (0-3) coloridos por fluoroscopia | 0-3                                                                            |
-| **thal**     | Categórico | Talassemia                                                  | 3 = normal, 6 = defeito fixo, 7 = defeito reversível                           |
-| **target**   | Categórico | Diagnóstico de doença cardíaca                              | 0 = ausente, 1 = presente (valores 1-4 convertidos para 1)                     |
+### Variáveis Demográficas
 
-## 🎯 Variável Alvo (Target)
+#### **age** (Numérico)
 
-- **Original:** Valores de 0 a 4 (0 = sem doença, 1-4 = níveis de doença)
-- **Convertido:** Binário (0 = sem doença, 1 = com doença)
-- **Distribuição:** 164 pacientes sem doença (54%), 139 com doença (46%)
+- **Descrição:** Idade do paciente em anos
+- **Range:** 29-77 anos
+- **Tipo:** Contínuo
+
+#### **sex** (Categórico)
+
+- **Descrição:** Sexo biológico do paciente
+- **Valores:**
+  - `1` = Masculino
+  - `0` = Feminino
+- **Tipo:** Binário
+
+---
+
+### Variáveis Clínicas - Sintomas
+
+#### **cp** (Categórico)
+
+- **Descrição:** Tipo de dor no peito (chest pain)
+- **Valores:**
+  - `1` = Angina típica
+  - `2` = Angina atípica
+  - `3` = Dor não-anginosa
+  - `4` = Assintomático
+- **Tipo:** Ordinal
+
+#### **exang** (Categórico)
+
+- **Descrição:** Angina induzida por exercício
+- **Valores:**
+  - `1` = Sim
+  - `0` = Não
+- **Tipo:** Binário
+
+---
+
+### Variáveis Clínicas - Sinais Vitais
+
+#### **trestbps** (Numérico)
+
+- **Descrição:** Pressão arterial em repouso (resting blood pressure)
+- **Unidade:** mm Hg (milímetros de mercúrio)
+- **Range:** 94-200 mm Hg
+- **Tipo:** Contínuo
+
+#### **thalach** (Numérico)
+
+- **Descrição:** Frequência cardíaca máxima alcançada durante teste de esforço
+- **Unidade:** bpm (batimentos por minuto)
+- **Range:** 71-202 bpm
+- **Tipo:** Contínuo
+
+---
+
+### Variáveis Laboratoriais
+
+#### **chol** (Numérico)
+
+- **Descrição:** Colesterol sérico total
+- **Unidade:** mg/dl (miligramas por decilitro)
+- **Range:** 126-564 mg/dl
+- **Tipo:** Contínuo
+
+#### **fbs** (Categórico)
+
+- **Descrição:** Glicemia em jejum > 120 mg/dl (fasting blood sugar)
+- **Valores:**
+  - `1` = Verdadeiro (glicemia > 120 mg/dl)
+  - `0` = Falso (glicemia ≤ 120 mg/dl)
+- **Tipo:** Binário
+
+---
+
+### Variáveis Eletrocardiográficas (ECG)
+
+#### **restecg** (Categórico)
+
+- **Descrição:** Resultados do eletrocardiograma em repouso
+- **Valores:**
+  - `0` = Normal
+  - `1` = Anormalidade da onda ST-T (inversão da onda T e/ou elevação/depressão ST > 0.05 mV)
+  - `2` = Hipertrofia ventricular esquerda provável ou definitiva (critérios de Estes)
+- **Tipo:** Ordinal
+
+#### **oldpeak** (Numérico)
+
+- **Descrição:** Depressão do segmento ST induzida por exercício em relação ao repouso
+- **Unidade:** mm (milímetros)
+- **Range:** 0.0-6.2 mm
+- **Tipo:** Contínuo
+
+#### **slope** (Categórico)
+
+- **Descrição:** Inclinação do segmento ST no pico do exercício
+- **Valores:**
+  - `1` = Ascendente (upsloping)
+  - `2` = Plano (flat)
+  - `3` = Descendente (downsloping)
+- **Tipo:** Ordinal
+
+---
+
+### Variáveis de Imagem Cardiovascular
+
+#### **ca** (Numérico)
+
+- **Descrição:** Número de vasos principais coloridos por fluoroscopia
+- **Range:** 0-3 vasos
+- **Tipo:** Discreto
+- **Nota:** 4 valores ausentes (1.3%)
+
+#### **thal** (Categórico)
+
+- **Descrição:** Resultado do teste de talassemia (perfusão miocárdica)
+- **Valores:**
+  - `3` = Normal
+  - `6` = Defeito fixo
+  - `7` = Defeito reversível
+- **Tipo:** Categórico
+- **Nota:** 2 valores ausentes (0.7%)
+
+---
+
+### Variável Alvo (Target)
+
+#### **target** (Categórico)
+
+- **Descrição:** Diagnóstico de doença cardíaca
+- **Valores Originais:** 0-4 (0 = sem doença, 1-4 = níveis de severidade)
+- **Valores Convertidos:**
+  - `0` = Ausência de doença cardíaca
+  - `1` = Presença de doença cardíaca (valores 1-4 agrupados)
+- **Tipo:** Binário (após conversão)
+- **Distribuição:** 164 sem doença (54%), 139 com doença (46%)
 
 ## 📊 Estatísticas Descritivas
 
