@@ -1,0 +1,7 @@
+Fonte: Diretriz Brasileira de Atendimento à Dor Torácica na Unidade de Emergência (SBC / Arq Bras Cardiol, 2025)
+
+Link: https://www.scielo.br/j/abc/a/rLn3RmSgM5Gswg4kWTvm3WJ/
+
+Objetivo NLP: extrair sintomas, classificar risco/triagem, identificar critérios de conduta em texto clínico
+
+Variáveis do dataset relacionadas: age, sex, trestbps, chol, cp, exang, oldpeak, slope, target
