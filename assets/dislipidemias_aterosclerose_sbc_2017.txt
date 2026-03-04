@@ -1,0 +1,7 @@
+Fonte: Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose (SBC, 2017)
+
+Link: https://www.scielo.br/j/abc/a/whBsCyzTDzGYJcsBY7YVkWn/
+
+Objetivo NLP: extrair fatores de risco, classificar tópicos (prevenção/diagnóstico), relacionar colesterol e risco coronariano
+
+Variáveis do dataset relacionadas: age, sex, trestbps, chol, target
