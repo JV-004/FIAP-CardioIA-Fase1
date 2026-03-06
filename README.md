@@ -133,6 +133,14 @@ Esses textos foram estruturados em formato `.txt` para permitir futuras aplicaç
 
 A utilização desses textos permite integrar informações clínicas descritas em linguagem natural com os dados estruturados do dataset, ampliando o potencial analítico do sistema.
 
+## Corpus Clínico para NLP
+
+Os textos utilizados como base para processamento de linguagem natural estão disponíveis na pasta `assets`:
+
+- `dor_toracica_triagem_sbc_2025.txt`
+- `dislipidemias_aterosclerose_sbc_2017.txt`
+
+Esses arquivos foram estruturados a partir de diretrizes clínicas para servir como base de conhecimento textual para futuras aplicações de NLP em triagem cardiovascular.
 ---
 
 ## 🖼️ Dados Visuais (Visão Computacional)
