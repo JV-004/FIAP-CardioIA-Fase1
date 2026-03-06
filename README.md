@@ -8,7 +8,7 @@ Ecossistema de cardiologia moderna integrando Machine Learning, Visão Computaci
 
 - **[Seu Nome]** - Especialista em IoT e Dados Estruturados
 - **[Nome]** - Arquiteto de Dados e Governança
-- **[Nome]** - Analista de NLP
+- Tayná Esteves - Analista de NLP
 - **[Nome]** - Especialista em Visão Computacional
 
 ### 🎯 Objetivo do Projeto
@@ -115,9 +115,23 @@ O poder dos modelos de Machine Learning está na capacidade de identificar **int
 
 ---
 
-## 📜 Dados Textuais (NLP)
+## Processamento de Linguagem Natural (NLP)
 
-_Seção em desenvolvimento..._
+Para complementar a análise baseada em dados estruturados, o projeto utiliza textos clínicos derivados de diretrizes médicas oficiais da Sociedade Brasileira de Cardiologia.
+
+Dois documentos foram utilizados como corpus de referência:
+
+- Diretriz Brasileira de Atendimento à Dor Torácica na Unidade de Emergência (2025)
+- Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose (2017)
+
+Esses textos foram estruturados em formato `.txt` para permitir futuras aplicações de Processamento de Linguagem Natural (NLP), como:
+
+- identificação de sintomas em descrições clínicas
+- reconhecimento de fatores de risco cardiovascular
+- classificação de risco baseada em texto clínico
+- apoio à triagem de pacientes com suspeita de síndrome coronariana aguda
+
+A utilização desses textos permite integrar informações clínicas descritas em linguagem natural com os dados estruturados do dataset, ampliando o potencial analítico do sistema.
 
 ---
 
