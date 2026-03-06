@@ -77,4 +77,75 @@ Taquiarritmia / bradiarritmia no cenário de dor torácica aguda
 Arq Bras Cardiol. 2025; 122(9):e20250620
 ECG: eletrocardiograma; POCUS: point-of-care ultrasound; IAM: infarto agudo do miocárdio.
 
+--------------------------------------------------
+SEÇÃO 2 — Avaliação clínica inicial e estratificação de risco
+--------------------------------------------------
 
+De acordo com a Diretriz Brasileira de Atendimento à Dor Torácica na Unidade de Emergência – 2025, a dor torácica é o sintoma mais frequentemente associado às síndromes coronarianas agudas (SCA), que incluem angina instável e infarto agudo do miocárdio com ou sem supradesnivelamento do segmento ST. A avaliação clínica inicial deve considerar características da dor, fatores de risco cardiovasculares e sintomas associados.
+
+A dor sugestiva de isquemia miocárdica costuma apresentar localização retroesternal ou precordial e é frequentemente descrita como pressão, aperto ou peso no tórax. Essa dor pode irradiar para braço esquerdo, mandíbula, dorso ou epigástrio e geralmente apresenta duração prolongada, frequentemente superior a 20 minutos. Sintomas associados como dispneia, sudorese, náusea, palpitações ou síncope aumentam a probabilidade de síndrome coronariana aguda.
+
+A presença de critérios de instabilidade clínica, como dor persistente, alterações eletrocardiográficas, instabilidade hemodinâmica, congestão pulmonar ou arritmias, reforça a necessidade de avaliação imediata e investigação diagnóstica rápida.
+
+No primeiro contato médico (First Medical Contact – FMC), todo paciente que apresente dor torácica ou sintoma equivalente deve ser avaliado de forma sistemática. A avaliação inicial deve considerar características demográficas e fatores de risco cardiovasculares. A idade avançada está associada a maior probabilidade de doença coronariana, enquanto diferenças entre sexos podem influenciar a apresentação clínica, sendo comum que mulheres apresentem manifestações mais atípicas.
+
+Após a avaliação inicial, recomenda-se a realização precoce do eletrocardiograma (ECG) e a dosagem de biomarcadores cardíacos, como troponina. A interpretação do ECG associada à aplicação de escores clínicos de estratificação de risco, como HEART ou GRACE, auxilia na classificação dos pacientes em baixo, intermediário ou alto risco de síndrome coronariana aguda.
+
+A estratificação de risco permite orientar a conduta clínica, auxiliando na decisão entre alta segura, observação clínica ou internação hospitalar para investigação e tratamento.
+
+Exemplos de descrições clínicas frequentemente encontradas em registros médicos incluem:
+
+“dor em aperto no peito irradiando para braço esquerdo”
+
+“pressão retroesternal associada a sudorese e náusea”
+
+“desconforto torácico com dispneia aos esforços”
+
+“dor torácica súbita acompanhada de palpitações”
+
+“queimação no peito com irradiação para mandíbula”
+
+“peso no tórax associado a falta de ar”
+
+--------------------------------------------------
+SEÇÃO 3 — Papel do eletrocardiograma (ECG) na triagem
+--------------------------------------------------
+
+O eletrocardiograma (ECG) é um dos principais exames utilizados na avaliação inicial de pacientes com dor torácica na unidade de emergência. As diretrizes recomendam que o ECG seja realizado idealmente em até 10 minutos após o primeiro contato médico, permitindo a identificação precoce de alterações sugestivas de isquemia miocárdica ou infarto agudo do miocárdio.
+
+Alterações no segmento ST, como supradesnivelamento ou depressão do segmento ST, podem indicar a presença de isquemia miocárdica e são fundamentais para a definição da conduta clínica imediata. A análise do ECG permite diferenciar pacientes com maior probabilidade de síndrome coronariana aguda daqueles com menor risco, orientando a necessidade de tratamento emergencial ou investigação adicional.
+
+Além disso, a interpretação do ECG deve ser realizada em conjunto com a avaliação clínica e com os resultados de biomarcadores cardíacos, como a troponina. A integração dessas informações permite uma estratificação mais precisa do risco cardiovascular, contribuindo para a tomada de decisão quanto à internação, observação clínica ou alta segura do paciente.
+
+Termos frequentemente utilizados em registros clínicos para alterações eletrocardiográficas incluem:
+
+supradesnivelamento do segmento ST
+depressão do segmento ST
+inversão da onda T
+alterações isquêmicas no ECG
+
+--------------------------------------------------
+SEÇÃO 4 — Biomarcadores cardíacos e escores de risco
+--------------------------------------------------
+
+A dosagem de biomarcadores cardíacos desempenha papel fundamental na avaliação de pacientes com suspeita de síndrome coronariana aguda. Entre esses marcadores, a troponina cardíaca é considerada o exame de escolha para o diagnóstico de infarto agudo do miocárdio, por apresentar alta sensibilidade e especificidade para detectar lesão miocárdica. Entretanto, a interpretação dos níveis de troponina deve sempre ser realizada em conjunto com a avaliação clínica do paciente e com os achados do eletrocardiograma.
+
+As diretrizes recomendam a realização de dosagens seriadas de troponina, permitindo a observação da dinâmica de elevação ou queda do biomarcador. Essa análise temporal é importante para diferenciar lesão miocárdica aguda de alterações crônicas. O diagnóstico de infarto agudo do miocárdio é estabelecido quando há elevação significativa de troponina associada a evidências de isquemia miocárdica, como sintomas típicos, alterações eletrocardiográficas ou achados compatíveis em exames de imagem.
+
+Além dos biomarcadores, a utilização de algoritmos diagnósticos baseados em troponina permite classificar os pacientes em diferentes categorias de risco. Nessa abordagem, indivíduos classificados como rule-in apresentam alta probabilidade de infarto, geralmente associada a elevação significativa da troponina e alterações no eletrocardiograma. Por outro lado, pacientes classificados como rule-out apresentam baixo risco de síndrome coronariana aguda, com troponina negativa em avaliações seriadas e ausência de alterações eletrocardiográficas relevantes.
+
+A diretriz também recomenda a utilização de escores clínicos para aprimorar a estratificação de risco. Entre os principais sistemas utilizados estão o escore HEART, que considera idade, fatores de risco cardiovasculares, características da dor torácica, alterações no eletrocardiograma e níveis de troponina, e o escore GRACE, que incorpora variáveis como idade, frequência cardíaca, pressão arterial, creatinina sérica, alterações eletrocardiográficas e níveis de biomarcadores cardíacos.
+
+A aplicação combinada da avaliação clínica, dos biomarcadores cardíacos e dos escores de risco permite uma classificação mais precisa dos pacientes, orientando a tomada de decisão quanto à necessidade de internação hospitalar, observação clínica ou alta segura.
+
+Exemplos de decisões clínicas descritas em registros médicos incluem:
+
+“paciente classificado como rule-out para síndrome coronariana aguda”
+
+“necessidade de internação para investigação de infarto agudo do miocárdio”
+
+“alta hospitalar após avaliação de baixo risco”
+
+“observação clínica com repetição seriada de troponina”
+
+“monitorização em unidade de dor torácica para investigação adicional”
