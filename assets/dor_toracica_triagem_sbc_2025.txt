@@ -5,3 +5,76 @@ Link: https://www.scielo.br/j/abc/a/rLn3RmSgM5Gswg4kWTvm3WJ/
 Objetivo NLP: extrair sintomas, classificar risco/triagem, identificar critérios de conduta em texto clínico
 
 Variáveis do dataset relacionadas: age, sex, trestbps, chol, cp, exang, oldpeak, slope, target
+
+--------------------------------------------------
+SEÇÃO 1 — Fluxo de atendimento inicial na emergência
+--------------------------------------------------
+
+ATENDIMENTO NA EMERGÊNCIA
+
+SINTOMAS SUSPEITOS
+(BUSCAR ATENDIMENTO IMEDIATAMENTE)
+
+Suspeita clínica confirmada
+(dor torácica ou sintoma equivalente)
+
+PASSO 1
+
+(Realizar ECG até 10 minutos)
+ECG COM CRITÉRIOS DIAGNÓSTICOS?
+
+PASSO 2
+
+(Avaliação inicial da rota diagnóstica)
+HÁ CRITÉRIO DE INSTABILIDADE?¹
+
+PASSO 3
+
+(Decisão após avaliação clínica detalhada com apoio de algoritmos e exames iniciais conforme suspeita clínica)
+DIAGNÓSTICO ESTABELECIDO?
+
+➡ SEGUIR ROTA TERAPÊUTICA
+(diretriz específica de acordo com o diagnóstico estabelecido)
+
+➡ SEGUIR ROTA DE PACIENTE INSTÁVEL:
+Avaliação clínica + dosagem de troponina
+Repetir ECG a cada 10–20 minutos
+(apoio de médico experiente)
+Buscar ativamente diagnósticos diferenciais
+(POCUS, outros exames)
+Admissão na unidade
+Tratar conforme diagnóstico estabelecido
+Avaliar indicação de time de choque
+
+CLASSIFICAR CONFORME ALGORITMOS DE TROPONINA E ESCORES DE RISCO
+RULE IN – ADMISSÃO DO PACIENTE
+
+Avaliar critérios de IAM e, na ausência de critérios de IAM, buscar ativamente a causa da injúria
+
+PASSO 4
+
+(Observação e investigação adicional nos casos de probabilidade/risco intermediário)
+Solicitar terceira dosagem de troponina, repetir ECG, realizar mais escores de risco (ex: GRACE) e considerar exames adicionais conforme suspeita*
+
+RULE OUT – DESCARTE DO DIAGNÓSTICO DE IAM
+
+Na ausência de diagnósticos alternativos para a causa da dor torácica, considerar alta para casa, especialmente se HEART score <4 em paciente sem antecedente de doença coronária*
+
+¹ CRITÉRIOS DE INSTABILIDADE:
+
+ECG limítrofe
+
+Dor persistente
+
+Instabilidade hemodinâmica / Má perfusão (perda de consciência, etc)
+
+Congestão pulmonar aguda
+
+Taquiarritmia / bradiarritmia no cenário de dor torácica aguda
+
+*Se suspeita de SCA persistir, seguir fluxo de investigação não-invasiva (figuras 13 e 14)
+
+Arq Bras Cardiol. 2025; 122(9):e20250620
+ECG: eletrocardiograma; POCUS: point-of-care ultrasound; IAM: infarto agudo do miocárdio.
+
+
