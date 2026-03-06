@@ -143,6 +143,17 @@ Os textos utilizados como base para processamento de linguagem natural estão di
 Esses arquivos foram estruturados a partir de diretrizes clínicas para servir como base de conhecimento textual para futuras aplicações de NLP em triagem cardiovascular.
 ---
 
+## Integração entre IoT, NLP e Machine Learning
+
+O projeto CardioIA propõe a integração de diferentes tipos de dados clínicos para análise cardiovascular:
+
+- **Dados estruturados (IoT):** variáveis clínicas como pressão arterial, colesterol e frequência cardíaca provenientes do dataset Heart Disease.
+- **Dados textuais (NLP):** descrições médicas extraídas de diretrizes clínicas, contendo sintomas, fatores de risco e critérios diagnósticos.
+- **Dados visuais (Visão Computacional):** imagens de exames cardíacos que poderão ser utilizadas para detecção de padrões em exames médicos.
+
+Essa integração permite combinar dados objetivos (sensores e exames) com informações clínicas descritas em linguagem natural, criando um sistema mais completo de apoio à decisão médica.
+
+
 ## 🖼️ Dados Visuais (Visão Computacional)
 
 _Seção em desenvolvimento..._
