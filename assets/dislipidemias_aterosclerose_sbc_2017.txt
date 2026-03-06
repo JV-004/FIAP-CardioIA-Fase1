@@ -1,7 +1,53 @@
-Fonte: Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose (SBC, 2017)
+Fonte: Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose (Sociedade Brasileira de Cardiologia – Arq Bras Cardiol, 2017)
 
 Link: https://www.scielo.br/j/abc/a/whBsCyzTDzGYJcsBY7YVkWn/
 
-Objetivo NLP: extrair fatores de risco, classificar tópicos (prevenção/diagnóstico), relacionar colesterol e risco coronariano
+Objetivo NLP: identificar fatores de risco cardiovasculares em textos clínicos, reconhecer menções a dislipidemia e níveis de colesterol, e relacionar essas informações ao risco de doença coronariana.
 
 Variáveis do dataset relacionadas: age, sex, trestbps, chol, target
+
+Definição de dislipidemia
+
+Dislipidemia é caracterizada por alterações nos níveis de lipídios plasmáticos, incluindo colesterol total, LDL-colesterol, HDL-colesterol e triglicerídeos. Essas alterações podem resultar em aumento do risco cardiovascular, especialmente quando há elevação do LDL-colesterol, principal lipoproteína associada ao desenvolvimento da aterosclerose.
+
+--------------------------------------------------
+SEÇÃO 1 — Dislipidemia e desenvolvimento da aterosclerose
+--------------------------------------------------
+
+A dislipidemia é um dos principais fatores de risco para o desenvolvimento da aterosclerose, processo inflamatório crônico caracterizado pelo acúmulo de lipídios na parede das artérias. Esse processo leva à formação de placas ateroscleróticas que podem reduzir o fluxo sanguíneo e aumentar o risco de eventos cardiovasculares, como infarto agudo do miocárdio e acidente vascular cerebral.
+
+Entre os principais componentes lipídicos envolvidos nesse processo destaca-se o colesterol de lipoproteína de baixa densidade (LDL-colesterol), cuja elevação está diretamente associada ao aumento do risco cardiovascular. A deposição de LDL na parede arterial desencadeia respostas inflamatórias que favorecem a progressão das placas ateroscleróticas.
+
+A redução dos níveis de LDL-colesterol é considerada um dos principais objetivos da prevenção cardiovascular, uma vez que está associada à diminuição do risco de eventos cardiovasculares maiores.
+
+--------------------------------------------------
+SEÇÃO 2 — Fatores de risco cardiovasculares
+--------------------------------------------------
+
+A avaliação do risco cardiovascular deve considerar múltiplos fatores clínicos e demográficos. Entre os fatores mais relevantes estão idade, sexo, níveis de colesterol, pressão arterial e presença de doenças metabólicas, como diabetes mellitus.
+
+A idade é um dos determinantes mais importantes do risco cardiovascular, sendo observado aumento progressivo da incidência de doença coronariana com o envelhecimento. Diferenças entre sexos também influenciam o risco, com maior incidência de eventos cardiovasculares em homens em faixas etárias mais precoces.
+
+Níveis elevados de colesterol total e LDL-colesterol estão fortemente associados ao desenvolvimento de aterosclerose e doença arterial coronariana. A hipertensão arterial também desempenha papel relevante nesse processo, contribuindo para lesões na parede vascular e progressão das placas ateroscleróticas.
+
+--------------------------------------------------
+SEÇÃO 3 — Avaliação e estratificação do risco cardiovascular
+--------------------------------------------------
+
+A estratificação de risco cardiovascular é uma etapa fundamental para orientar estratégias de prevenção e tratamento. Diretrizes clínicas recomendam que a avaliação do risco considere a combinação de múltiplos fatores, incluindo idade, níveis de colesterol, pressão arterial e histórico clínico do paciente.
+
+A identificação de indivíduos com maior risco cardiovascular permite direcionar intervenções preventivas, como mudanças no estilo de vida e tratamento farmacológico. A redução de níveis elevados de colesterol e o controle da pressão arterial são estratégias essenciais para diminuir a probabilidade de eventos cardiovasculares futuros.
+
+A abordagem integrada desses fatores contribui para a prevenção da progressão da aterosclerose e para a redução da incidência de infarto agudo do miocárdio.
+
+Exemplos de descrições clínicas relacionadas a fatores de risco cardiovascular incluem:
+
+“paciente com hipercolesterolemia e hipertensão arterial sistêmica”
+
+“histórico de dislipidemia associado a aumento do risco cardiovascular”
+
+“níveis elevados de LDL-colesterol em paciente com múltiplos fatores de risco”
+
+“controle inadequado da pressão arterial associado a risco aumentado de doença coronariana”
+
+Observação: Este texto foi estruturado para servir como corpus de referência para modelos de Processamento de Linguagem Natural aplicados à identificação de fatores de risco cardiovascular em registros clínicos.
