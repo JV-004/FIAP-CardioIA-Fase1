@@ -9,7 +9,7 @@ Ecossistema de cardiologia moderna integrando Machine Learning, Visão Computaci
 - **[Seu Nome]** - Especialista em IoT e Dados Estruturados
 - **[Nome]** - Arquiteto de Dados e Governança
 - Tayná Esteves - Analista de NLP
-- **[Nome]** - Especialista em Visão Computacional
+- Endrew Alves - Especialista em Visão Computacional
 
 ### 🎯 Objetivo do Projeto
 
