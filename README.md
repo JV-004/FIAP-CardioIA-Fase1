@@ -38,7 +38,7 @@ FIAP-CardioIA-Fase1/
 
 **Fonte Original:** [UCI Machine Learning Repository - Heart Disease](http://archive.ics.uci.edu/ml/datasets/Heart+Disease)
 
-**Acesso ao Dataset:** 🔗 _[Link do Google Drive será adicionado após hospedagem]_
+**Acesso ao Dataset:** 🔗 [Link do Google Drive](https://drive.google.com/drive/folders/1Is49Rh1D4fKgtgbgTN8u_KIuI2xLp5At?usp=sharing)
 
 **Documentação Completa:** [📄 DATASET_INFO.md](assets/DATASET_INFO.md)
 
@@ -176,7 +176,7 @@ Modelos de Inteligência Artificial, como Redes Neurais Convolucionais
 - identificação de sinais de infarto
 
 Link para o dataset completo:
-[LINK DO GOOGLE DRIVE](https://drive.google.com/drive/folders/1w-R_bxDKnD9HdZfJi5lZGQh3VTF0AJ3u?usp=sharing)
+[Link do Google Drive](https://drive.google.com/drive/folders/1w-R_bxDKnD9HdZfJi5lZGQh3VTF0AJ3u?usp=sharing)
 
 ---
 
