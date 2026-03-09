@@ -6,8 +6,8 @@ Ecossistema de cardiologia moderna integrando Machine Learning, Visão Computaci
 
 ### 👥 Integrantes da Equipe
 
-- **[Seu Nome]** - Especialista em IoT e Dados Estruturados
-- **[Nome]** - Arquiteto de Dados e Governança
+- João Vittor - Especialista em IoT e Dados Estruturados
+- Carlos Souza - Arquiteto de Dados e Governança
 - Tayná Esteves - Analista de NLP
 - Endrew Alves - Especialista em Visão Computacional
 
