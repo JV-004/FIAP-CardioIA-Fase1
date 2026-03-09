@@ -191,9 +191,9 @@ _Seção em desenvolvimento..._
 - [x] Estruturação inicial do repositório
 - [x] Coleta de dados numéricos
 - [x] Documentação técnica dos dados numéricos
-- [ ] Curadoria e limpeza dos dados numéricos
-- [ ] Hospedagem dos dados em nuvem
-- [ ] Coleta de dados textuais
+- [x] Curadoria e limpeza dos dados numéricos
+- [x] Hospedagem dos dados em nuvem
+- [x] Coleta de dados textuais
 - [x] Coleta de dados visuais
 - [ ] Documentação completa
 - [ ] Validação final
