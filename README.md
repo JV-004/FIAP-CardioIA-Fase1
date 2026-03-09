@@ -156,7 +156,27 @@ Essa integração permite combinar dados objetivos (sensores e exames) com infor
 
 ## 🖼️ Dados Visuais (Visão Computacional)
 
-_Seção em desenvolvimento..._
+Foram coletadas imagens de eletrocardiograma (ECG) organizadas em
+diferentes categorias clínicas:
+
+- ECG Normal
+- ECG com Infarto do Miocárdio
+- ECG com Batimentos Anormais
+- ECG com Histórico de Infarto
+
+Essas imagens representam sinais elétricos do coração e podem ser
+utilizadas em algoritmos de Visão Computacional para identificar
+padrões cardíacos e detectar anomalias cardíacas.
+
+Modelos de Inteligência Artificial, como Redes Neurais Convolucionais
+(CNN), podem analisar essas imagens para:
+
+- classificação de ECG normal e anormal
+- detecção de arritmias
+- identificação de sinais de infarto
+
+Link para o dataset completo:
+[LINK DO GOOGLE DRIVE](https://drive.google.com/drive/folders/1w-R_bxDKnD9HdZfJi5lZGQh3VTF0AJ3u?usp=sharing)
 
 ---
 
@@ -174,13 +194,11 @@ _Seção em desenvolvimento..._
 - [ ] Curadoria e limpeza dos dados numéricos
 - [ ] Hospedagem dos dados em nuvem
 - [ ] Coleta de dados textuais
-- [ ] Coleta de dados visuais
+- [x] Coleta de dados visuais
 - [ ] Documentação completa
 - [ ] Validação final
 
 ---
 
 **FIAP - Faculdade de Informática e Administração Paulista**  
-**Curso:** [Seu Curso]  
-**Disciplina:** [Nome da Disciplina]  
-**Ano:** 2024
+**Ano:** 2026
