@@ -12,12 +12,12 @@ Projeto acadêmico desenvolvido na FIAP com foco na construção de uma base de 
 
 # 👥 Integrantes da Equipe
 
-| Nome completo     | RM       |  FUNÇÃO                                  |
-|:-----------------:|:--------:|:----------------------------------------:|
-| Carlos            | RM566487 |  Arquiteto de Dados e Governança         |
-| Endrew            | RM563646 |  Especialista em Visão Computacional     |
-| João              | RM565999 |  Especialista em IoT e Dados Estruturados|
-| Tayna             | RM562491 |  Analista de NLP                         |
+                   | Nome completo     | RM       |  FUNÇÃO                                  |
+                   |:-----------------:|:--------:|:----------------------------------------:|
+                   | Carlos            | RM566487 |  Arquiteto de Dados e Governança         |
+                   | Endrew            | RM563646 |  Especialista em Visão Computacional     |
+                   | João              | RM565999 |  Especialista em IoT e Dados Estruturados|
+                   | Tayna             | RM562491 |  Analista de NLP                         |
 
 ---
 
