@@ -19,6 +19,10 @@ Projeto acadêmico desenvolvido na FIAP com foco na construção de uma base de 
    | João              | RM565999 |  Especialista em IoT e Dados Estruturados|
    | Tayna             | RM562491 |  Analista de NLP                         |
 
+
+LINK DO REPOSITÓRIO GITHUB:
+https://github.com/JV-004/FIAP-CardioIA-Fase1.git
+
 ---
 
 # Introdução
