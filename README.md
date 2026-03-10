@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Fiap-logo-novo.jpg" alt="FIAP Logo" width="900"/> </p>
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Fiap-logo-novo.jpg" alt="FIAP Logo" width="700"/> </p>
 
 ---
 
@@ -68,7 +68,7 @@ Essa integração permite a construção de **sistemas de IA multimodais**, capa
 <div align="center">
   <img src="./assets/estrutura_projeto_1.png" alt="Estrutura do Projeto CardioIA" width="200">
  </div>
-
+--
  <div align="center">
   <img src="./assets/Cardio_IA_Estrutura_Arquivos.png" alt="Estrutura do Projeto CardioIA" width="200">
  </div>
