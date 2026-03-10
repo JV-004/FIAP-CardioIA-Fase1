@@ -133,7 +133,7 @@ Por exemplo, um paciente jovem com colesterol elevado pode apresentar risco seme
 # 📈 Estatísticas do Dataset
 
 <div align="center">
-  <img src="./assets/Resumo dos Dados Clinicos.png" alt="Resumo de Dados Clinicos" width="100%">
+  <img src="./assets/Resumo dos Dados Clinicos.png" alt="Resumo de Dados Clinicos" width="80%">
 </div>
 
 ---
@@ -272,11 +272,9 @@ Reconhecer essas limitações é fundamental para garantir que modelos desenvolv
 
 O projeto CardioIA propõe a integração de três tipos de dados clínicos:
 
-| Tipo de Dados | Aplicação |
-|--------|--------|
-Dados estruturados | Modelos preditivos |
-Texto clínico | NLP e extração de conhecimento |
-Imagens médicas | Visão computacional |
+<div align="center">
+  <img src="./assets/dados_graficos.png" alt="Resumo de Dados Clinicos" width="80%">
+</div>
 
 Essa abordagem permite o desenvolvimento futuro de **modelos multimodais de IA**, capazes de combinar diferentes fontes de informação para apoiar decisões médicas.
 
