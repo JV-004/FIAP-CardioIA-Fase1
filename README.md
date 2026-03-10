@@ -94,22 +94,12 @@ https://drive.google.com/drive/folders/1Is49Rh1D4fKgtgbgTN8u_KIuI2xLp5At
 
 ---
 
-# 🏥 Variáveis e Relevância Clínica
+# 🏥 Análise de Dados e Relevância Clínica
 
-| Variável | Descrição |
-|--------|--------|
-| age | idade do paciente |
-| sex | sexo biológico |
-| trestbps | pressão arterial em repouso |
-| chol | colesterol sérico |
-| thalach | frequência cardíaca máxima |
-| cp | tipo de dor no peito |
-| exang | angina induzida por exercício |
-| oldpeak | depressão do segmento ST |
-| slope | inclinação do segmento ST |
-| ca | número de vasos principais afetados |
-| thal | defeito de perfusão miocárdica |
-| target | presença de doença cardíaca |
+<div align="center">
+   <img src="./assets/Analise de Dados e Relevancia Clinica.png" alt="Análise de Dados e Relevância Clinica" width="500">
+   <p><i>Figura 1: Organização de diretórios e arquivos do projeto.</i></p>
+</div>
 
 ---
 
