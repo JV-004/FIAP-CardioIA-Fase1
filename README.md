@@ -97,9 +97,8 @@ https://drive.google.com/drive/folders/1Is49Rh1D4fKgtgbgTN8u_KIuI2xLp5At
 # 🏥 Análise de Dados e Relevância Clínica
 
 <div align="center">
-   <img src="./assets/Analise de Dados e Relevancia Clinica.png" alt="Análise de Dados e Relevância Clinica" width="500">
-   <p><i>Figura 1: Organização de diretórios e arquivos do projeto.</i></p>
-</div>
+   <img src="./assets/Analise de Dados e Relevancia Clinica.png" alt="Análise de Dados e Relevância Clinica" width="900">
+  </div>
 
 ---
 
