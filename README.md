@@ -65,13 +65,19 @@ Essa integração permite a construção de **sistemas de IA multimodais**, capa
 
 # 📂 Estrutura do Repositório
 
-<div align="center">
-  <img src="./assets/estrutura_projeto_1.png" alt="Estrutura do Projeto CardioIA" width="200">
- </div>
---
- <div align="center">
-  <img src="./assets/Cardio_IA_Estrutura_Arquivos.png" alt="Estrutura do Projeto CardioIA" width="200">
- </div>
+<table align="center">
+<tr>
+
+<td align="center">
+<img src="./assets/estrutura_projeto_1.png" alt="Estrutura do Projeto CardioIA" width="600">
+</td>
+
+<td align="center">
+<img src="./assets/Cardio_IA_Estrutura_Arquivos.png" alt="Estrutura do Projeto CardioIA" width="600">
+</td>
+
+</tr>
+</table>
  
 A pasta **assets** contém materiais auxiliares utilizados no projeto, como textos clínicos e documentação técnica.
 
