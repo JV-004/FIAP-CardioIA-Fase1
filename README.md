@@ -59,14 +59,11 @@ Essa integração permite a construção de **sistemas de IA multimodais**, capa
 
 # 📂 Estrutura do Repositório
 
-FIAP-CardioIA-Fase1/
-├── assets/
-│   ├── DATASET_INFO.md
-│   ├── dislipidemias_aterosclerose_sbc_2017.txt
-│   └── dor_toracica_triagem_sbc_2025.txt
-├── .gitignore
-└── README.md
 
+<div align="center">
+  <img src="./assets/estrutura_projeto.png" alt="Estrutura do Projeto CardioIA" width="500">
+  <p><i>Figura 1: Organização de diretórios e arquivos do projeto.</i></p>
+</div>
 A pasta **assets** contém materiais auxiliares utilizados no projeto, como textos clínicos e documentação técnica.
 
 ---
