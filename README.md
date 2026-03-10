@@ -1,6 +1,8 @@
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Fiap-logo-novo.jpg" alt="FIAP Logo" width="300"/> </p>
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Fiap-logo-novo.jpg" alt="FIAP Logo" width="900"/> </p>
+
 ---
-# 🩺 FIAP - CardioIA | Fase 1 — Batimentos de Dados
+
+## 🩺 FIAP - CardioIA | Fase 1 — Batimentos de Dados
 
 ## Ecossistema Inteligente de Cardiologia com Inteligência Artificial
 
@@ -122,10 +124,9 @@ Por exemplo, um paciente jovem com colesterol elevado pode apresentar risco seme
 
 # 📈 Estatísticas do Dataset
 
-- Idade média: **54.4 anos**
-- Distribuição por sexo: **68% masculino / 32% feminino**
-- Prevalência de doença cardíaca: **46%**
-- Valores ausentes: **6 registros**
+<div align="center">
+  <img src="./assets/Resumo dos Dados Clinicos.png" alt="Resumo de Dados Clinicos" width="100%">
+</div>
 
 ---
 
