@@ -1,3 +1,5 @@
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Fiap-logo-novo.jpg" alt="FIAP Logo" width="300"/> </p>
+---
 # 🩺 FIAP - CardioIA | Fase 1 — Batimentos de Dados
 
 ## Ecossistema Inteligente de Cardiologia com Inteligência Artificial
@@ -36,10 +38,13 @@ Esses princípios são essenciais porque, em projetos de IA, **a qualidade e gov
 
 # 👥 Integrantes da Equipe
 
-- **João Vittor** — Especialista em IoT e Dados Estruturados  
-- **Carlos Souza** — Arquiteto de Dados e Governança  
-- **Tayná Esteves** — Analista de NLP  
-- **Endrew Alves** — Especialista em Visão Computacional  
+| Nome completo     | RM       |  FUNÇÃO                                  |
+|:-----------------:|:--------:|:----------------------------------------:|
+| Carlos            | RM566487 |  Arquiteto de Dados e Governança         |
+| Endrew            | RM563646 |  Especialista em Visão Computacional     |
+| João              | RM565999 |  Especialista em IoT e Dados Estruturados|
+| Tayna             | RM562491 |  Analista de NLP                         |
+
 
 ---
 
