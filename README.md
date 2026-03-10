@@ -69,7 +69,7 @@ Essa integração permite a construção de **sistemas de IA multimodais**, capa
 <tr>
 
 <td align="center">
-<img src="./assets/estrutura_projeto_1.png" alt="Estrutura do Projeto CardioIA" width="600">
+<img src="./assets/estrutura_projeto_1.png" alt="Estrutura do Projeto CardioIA" width="400">
 </td>
 
 <td align="center">
