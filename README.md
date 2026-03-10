@@ -1,204 +1,300 @@
-# FIAP-CardioIA-Fase1
+# 🩺 FIAP - CardioIA | Fase 1 — Batimentos de Dados
 
-## 🩺 Projeto CardioIA - Batimentos de Dados
+## Ecossistema Inteligente de Cardiologia com Inteligência Artificial
 
-Ecossistema de cardiologia moderna integrando Machine Learning, Visão Computacional, IoT e Agentes Inteligentes.
-
-### 👥 Integrantes da Equipe
-
-- João Vittor - Especialista em IoT e Dados Estruturados
-- Carlos Souza - Arquiteto de Dados e Governança
-- Tayná Esteves - Analista de NLP
-- Endrew Alves - Especialista em Visão Computacional
-
-### 🎯 Objetivo do Projeto
-
-Este projeto visa criar a base de dados fundamental para um sistema de IA cardiovascular, coletando e organizando três tipos de dados essenciais:
-
-1. **Dados Numéricos (IoT)** - Parâmetros clínicos e dispositivos IoT
-2. **Dados Textuais (NLP)** - Literatura médica para processamento de linguagem natural
-3. **Dados Visuais (VC)** - Imagens de exames para visão computacional
-
-### 📂 Estrutura do Repositório
-
-```
-FIAP-CardioIA-Fase1/
-├── README.md           # Documentação principal
-├── assets/             # Recursos do projeto (textos, scripts)
-└── .gitignore         # Arquivos ignorados pelo Git
-```
+Projeto acadêmico desenvolvido na FIAP com foco na construção de uma base de dados multimodal para aplicações de Inteligência Artificial em saúde cardiovascular.
 
 ---
 
-## 🔢 Dados Numéricos (IoT)
+# Introdução
 
-### Dataset: Heart Disease UCI (Cleveland Database)
+As doenças cardiovasculares permanecem entre as principais causas de mortalidade no mundo, representando um dos maiores desafios para os sistemas de saúde modernos. O diagnóstico precoce, o monitoramento contínuo e a análise integrada de dados clínicos são fatores essenciais para reduzir riscos, melhorar prognósticos e otimizar o tratamento de pacientes.
 
-**Descrição:** Dataset contendo 303 registros de pacientes com variáveis clínicas cardiovasculares coletados de instituições médicas nos EUA, Hungria e Suíça.
+Nesse contexto, a **Inteligência Artificial (IA)** surge como uma poderosa ferramenta capaz de transformar grandes volumes de dados médicos em conhecimento útil para apoio à decisão clínica. Técnicas como **Machine Learning, Processamento de Linguagem Natural, Visão Computacional e análise de dados provenientes de sensores e dispositivos IoT** permitem identificar padrões complexos que muitas vezes não são perceptíveis em análises tradicionais.
 
-**Fonte Original:** [UCI Machine Learning Repository - Heart Disease](http://archive.ics.uci.edu/ml/datasets/Heart+Disease)
+O projeto **CardioIA** foi concebido com o objetivo de explorar esse potencial tecnológico na área da cardiologia. A iniciativa busca construir um ecossistema inteligente capaz de integrar diferentes tipos de dados clínicos — estruturados, textuais e visuais — para apoiar futuras aplicações de IA voltadas ao diagnóstico, monitoramento e análise de risco cardiovascular.
 
-**Acesso ao Dataset:** 🔗 [Link do Google Drive](https://drive.google.com/drive/folders/1Is49Rh1D4fKgtgbgTN8u_KIuI2xLp5At?usp=sharing)
+Esta etapa do projeto, denominada **Fase 1 — Batimentos de Dados**, tem como objetivo principal **identificar, coletar, organizar e documentar os conjuntos de dados que servirão como base para as próximas fases do sistema CardioIA**.
 
-**Documentação Completa:** [📄 DATASET_INFO.md](assets/DATASET_INFO.md)
+Nesta fase, a equipe assume o papel de **cientistas e arquitetos de dados hospitalares**, responsáveis por estruturar três pilares fundamentais de informação:
+
+- **Dados Numéricos (IoT / Dados Estruturados)**: variáveis clínicas e biométricas utilizadas para modelagem preditiva.
+- **Dados Textuais (NLP)**: diretrizes médicas e literatura clínica utilizadas para extração de conhecimento em linguagem natural.
+- **Dados Visuais (Visão Computacional)**: imagens médicas que poderão ser utilizadas na detecção automática de padrões cardíacos.
+
+Mais do que simplesmente coletar dados, esta fase enfatiza aspectos fundamentais de projetos de Inteligência Artificial em saúde, como:
+
+- qualidade e confiabilidade dos dados
+- rastreabilidade das fontes
+- diversidade das amostras
+- privacidade e anonimização
+- identificação de possíveis vieses
+
+Esses princípios são essenciais porque, em projetos de IA, **a qualidade e governança dos dados são fatores determinantes para a confiabilidade dos modelos desenvolvidos**.
 
 ---
 
-### 📊 Características do Dataset
+# 👥 Integrantes da Equipe
 
-- **Instâncias:** 303 pacientes
-- **Variáveis:** 14 atributos clínicos
+- **João Vittor** — Especialista em IoT e Dados Estruturados  
+- **Carlos Souza** — Arquiteto de Dados e Governança  
+- **Tayná Esteves** — Analista de NLP  
+- **Endrew Alves** — Especialista em Visão Computacional  
+
+---
+
+# 🎯 Objetivo do Projeto
+
+Construir a **base de dados multimodal** que permitirá o desenvolvimento futuro de modelos de Inteligência Artificial aplicados à cardiologia.
+
+O projeto integra três tipos principais de dados:
+
+1. **Dados Numéricos** — variáveis clínicas estruturadas
+2. **Dados Textuais** — literatura médica e diretrizes clínicas
+3. **Dados Visuais** — imagens de exames cardíacos
+
+Essa integração permite a construção de **sistemas de IA multimodais**, capazes de combinar diferentes fontes de informação para apoiar análises clínicas mais completas.
+
+---
+
+# 📂 Estrutura do Repositório
+
+
+
+
+
+A pasta **assets** contém materiais auxiliares utilizados no projeto, como textos clínicos e documentação técnica.
+
+---
+
+# 🔢 Dados Numéricos (Dados Estruturados Clínicos)
+
+## Dataset: Heart Disease UCI — Cleveland Database
+
+O dataset principal utilizado nesta fase é o **Heart Disease Dataset**, disponibilizado pelo UCI Machine Learning Repository.
+
+Esse conjunto de dados contém registros clínicos de pacientes avaliados quanto à presença de doença cardíaca, sendo amplamente utilizado em pesquisas de Machine Learning.
+
+**Fonte Oficial:**  
+http://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+**Acesso ao Dataset utilizado no projeto:**  
+https://drive.google.com/drive/folders/1Is49Rh1D4fKgtgbgTN8u_KIuI2xLp5At
+
+---
+
+# 📊 Características do Dataset
+
+- **Número de pacientes:** 303
+- **Número de variáveis:** 14
 - **Formato:** CSV
-- **Licença:** CC BY 4.0 (Creative Commons)
-- **Tipo:** Dados reais anonimizados
+- **Licença:** Creative Commons
+- **Tipo de dados:** Dados clínicos anonimizados
 
 ---
 
-### 🏥 Variáveis e Relevância Clínica
+# 🏥 Variáveis e Relevância Clínica
 
-| Variável     | Descrição                                  | Relevância para IA                                                                                |
-| ------------ | ------------------------------------------ | ------------------------------------------------------------------------------------------------- |
-| **age**      | Idade (29-77 anos)                         | Fator de risco primário; risco cardiovascular aumenta exponencialmente com idade                  |
-| **sex**      | Sexo (1=M, 0=F)                            | Diferenças fisiológicas afetam manifestação de doenças cardíacas; sintomas específicos por gênero |
-| **trestbps** | Pressão arterial em repouso (94-200 mm Hg) | Indica carga de trabalho do miocárdio; hipertensão causa hipertrofia ventricular                  |
-| **chol**     | Colesterol sérico (126-564 mg/dl)          | Marcador de aterosclerose; preditor direto de eventos cardiovasculares                            |
-| **thalach**  | Frequência cardíaca máxima (71-202 bpm)    | Reflete capacidade funcional do coração; valores baixos sugerem comprometimento                   |
-| **cp**       | Tipo de dor no peito (1-4)                 | Fundamental para diagnóstico diferencial; angina típica tem alta especificidade                   |
-| **exang**    | Angina induzida por exercício (0-1)        | Forte indicador de isquemia miocárdica; sugere obstrução coronariana                              |
-| **oldpeak**  | Depressão ST (0.0-6.2 mm)                  | Marcador eletrofisiológico de isquemia; quanto maior, maior a probabilidade de doença             |
-| **slope**    | Inclinação segmento ST (1-3)               | Morfologia do ECG fornece informações sobre natureza da isquemia                                  |
-| **ca**       | Vasos principais (0-3)                     | Correlaciona-se com gravidade da doença e prognóstico                                             |
-| **thal**     | Perfusão miocárdica (3,6,7)                | Defeitos indicam áreas com fluxo sanguíneo reduzido                                               |
-| **target**   | Diagnóstico (0=ausente, 1=presente)        | Variável alvo para modelos de classificação                                                       |
-
----
-
-### 🧠 Por que estas variáveis são importantes para IA?
-
-O poder dos modelos de Machine Learning está na capacidade de identificar **interações complexas** entre variáveis:
-
-- **Integração Multi-Variável:** A IA não analisa variáveis isoladamente, mas como um sistema integrado
-- **Padrões Não-Lineares:** Captura relações complexas que escapam à análise humana
-- **Estratificação de Risco:** Combina múltiplos fatores para prever não apenas presença, mas severidade da doença
-- **Personalização:** Aprende padrões específicos por idade, sexo e perfil clínico
-
-**Exemplo:** Um paciente jovem com colesterol alto pode ter risco similar a um paciente mais velho com colesterol normal - a IA identifica essas nuances.
+| Variável | Descrição |
+|--------|--------|
+| age | idade do paciente |
+| sex | sexo biológico |
+| trestbps | pressão arterial em repouso |
+| chol | colesterol sérico |
+| thalach | frequência cardíaca máxima |
+| cp | tipo de dor no peito |
+| exang | angina induzida por exercício |
+| oldpeak | depressão do segmento ST |
+| slope | inclinação do segmento ST |
+| ca | número de vasos principais afetados |
+| thal | defeito de perfusão miocárdica |
+| target | presença de doença cardíaca |
 
 ---
 
-### 📈 Estatísticas do Dataset
+# 🧠 Importância das Variáveis para Machine Learning
 
-- **Idade média:** 54.4 anos
-- **Distribuição por sexo:** 68% masculino, 32% feminino
-- **Prevalência de doença:** 46% com doença cardíaca
-- **Valores ausentes:** 6 valores (2% do total) em 2 variáveis (ca, thal)
+Modelos de Machine Learning conseguem identificar **relações complexas entre múltiplos fatores clínicos**, permitindo:
 
----
+- detecção de padrões não lineares
+- estratificação de risco cardiovascular
+- identificação de combinações críticas de variáveis
+- suporte a análises preditivas
 
-### ✅ Curadoria Realizada
-
-- ✅ Download automatizado via script Python
-- ✅ Conversão da variável target para binária (0/1)
-- ✅ Identificação de valores ausentes
-- ✅ Validação de 303 linhas (> 100 requisito mínimo)
-- ✅ Verificação de todas as colunas obrigatórias
+Por exemplo, um paciente jovem com colesterol elevado pode apresentar risco semelhante ao de um paciente mais velho com outros fatores de risco associados. A análise integrada dessas variáveis permite que algoritmos de IA capturem essas interações.
 
 ---
 
-### ⚖️ Governança e Ética
+# 📈 Estatísticas do Dataset
 
-- **Anonimização:** ✅ Dataset não contém informações identificáveis (nomes, CPF, endereços)
-- **Diversidade:** ✅ Inclui ambos os sexos e ampla faixa etária (29-77 anos)
-- **Origem:** ✅ Dados reais de instituições médicas (Cleveland Clinic, Hungarian Institute, etc.)
-- **Conformidade LGPD:** ✅ Dados públicos disponibilizados para pesquisa acadêmica
-- **Transparência:** ✅ Fonte documentada e rastreável
+- Idade média: **54.4 anos**
+- Distribuição por sexo: **68% masculino / 32% feminino**
+- Prevalência de doença cardíaca: **46%**
+- Valores ausentes: **6 registros**
 
 ---
 
-## Processamento de Linguagem Natural (NLP)
+# 🧹 Curadoria e Preparação dos Dados
 
-Para complementar a análise baseada em dados estruturados, o projeto utiliza textos clínicos derivados de diretrizes médicas oficiais da Sociedade Brasileira de Cardiologia.
+Durante a preparação do dataset foram realizadas as seguintes etapas:
 
-Dois documentos foram utilizados como corpus de referência:
+- download automatizado do dataset
+- validação do número mínimo de registros
+- verificação das colunas obrigatórias
+- identificação de valores ausentes
+- padronização da variável target
 
-- Diretriz Brasileira de Atendimento à Dor Torácica na Unidade de Emergência (2025)
-- Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose (2017)
+Essas etapas garantem maior confiabilidade para futuras análises e treinamentos de modelos de IA.
 
-Esses textos foram estruturados em formato `.txt` para permitir futuras aplicações de Processamento de Linguagem Natural (NLP), como:
+---
 
-- identificação de sintomas em descrições clínicas
-- reconhecimento de fatores de risco cardiovascular
-- classificação de risco baseada em texto clínico
-- apoio à triagem de pacientes com suspeita de síndrome coronariana aguda
+# 📚 Processamento de Linguagem Natural (NLP)
 
-A utilização desses textos permite integrar informações clínicas descritas em linguagem natural com os dados estruturados do dataset, ampliando o potencial analítico do sistema.
+Para complementar os dados estruturados, o projeto utiliza textos clínicos provenientes de **diretrizes médicas da Sociedade Brasileira de Cardiologia**.
 
-## Corpus Clínico para NLP
+Documentos utilizados:
 
-Os textos utilizados como base para processamento de linguagem natural estão disponíveis na pasta `assets`:
+- Diretriz Brasileira de Atendimento à Dor Torácica na Emergência (2025)
+- Diretriz de Dislipidemias e Prevenção da Aterosclerose (2017)
+
+Esses documentos foram convertidos para formato `.txt` para permitir aplicações futuras de NLP, como:
+
+- extração automática de sintomas
+- identificação de fatores de risco
+- classificação de risco clínico
+- apoio à triagem médica baseada em texto
+
+---
+
+# Corpus Clínico para NLP
+
+Arquivos disponíveis na pasta `assets`:
 
 - `dor_toracica_triagem_sbc_2025.txt`
 - `dislipidemias_aterosclerose_sbc_2017.txt`
 
-Esses arquivos foram estruturados a partir de diretrizes clínicas para servir como base de conhecimento textual para futuras aplicações de NLP em triagem cardiovascular.
+Esses textos servem como base de conhecimento para aplicações futuras de Processamento de Linguagem Natural.
+
 ---
 
-## Integração entre IoT, NLP e Machine Learning
+# 🖼️ Dados Visuais (Visão Computacional)
 
-O projeto CardioIA propõe a integração de diferentes tipos de dados clínicos para análise cardiovascular:
-
-- **Dados estruturados (IoT):** variáveis clínicas como pressão arterial, colesterol e frequência cardíaca provenientes do dataset Heart Disease.
-- **Dados textuais (NLP):** descrições médicas extraídas de diretrizes clínicas, contendo sintomas, fatores de risco e critérios diagnósticos.
-- **Dados visuais (Visão Computacional):** imagens de exames cardíacos que poderão ser utilizadas para detecção de padrões em exames médicos.
-
-Essa integração permite combinar dados objetivos (sensores e exames) com informações clínicas descritas em linguagem natural, criando um sistema mais completo de apoio à decisão médica.
-
-
-## 🖼️ Dados Visuais (Visão Computacional)
-
-Foram coletadas imagens de eletrocardiograma (ECG) organizadas em
-diferentes categorias clínicas:
+O projeto também inclui um conjunto de **imagens de eletrocardiograma (ECG)** organizadas em diferentes categorias clínicas:
 
 - ECG Normal
 - ECG com Infarto do Miocárdio
 - ECG com Batimentos Anormais
 - ECG com Histórico de Infarto
 
-Essas imagens representam sinais elétricos do coração e podem ser
-utilizadas em algoritmos de Visão Computacional para identificar
-padrões cardíacos e detectar anomalias cardíacas.
+Essas imagens podem ser utilizadas para treinamento de modelos de **Redes Neurais Convolucionais (CNN)** capazes de detectar padrões cardíacos.
 
-Modelos de Inteligência Artificial, como Redes Neurais Convolucionais
-(CNN), podem analisar essas imagens para:
+Aplicações potenciais:
 
-- classificação de ECG normal e anormal
+- classificação automática de ECG
 - detecção de arritmias
 - identificação de sinais de infarto
 
-Link para o dataset completo:
-[Link do Google Drive](https://drive.google.com/drive/folders/1w-R_bxDKnD9HdZfJi5lZGQh3VTF0AJ3u?usp=sharing)
+Dataset de imagens:  
+https://drive.google.com/drive/folders/1w-R_bxDKnD9HdZfJi5lZGQh3VTF0AJ3u
 
 ---
 
-## ⚖️ Governança e Ética de Dados
+# ⚖️ Governança de Dados e Viés
 
-_Seção em desenvolvimento..._
+Projetos de Inteligência Artificial aplicados à saúde exigem atenção especial à **governança de dados**, garantindo que os dados utilizados sejam confiáveis, rastreáveis e eticamente adequados.
+
+## Princípios adotados no projeto
+
+O CardioIA adota três princípios fundamentais de governança:
+
+**Rastreabilidade**
+
+Todas as fontes de dados utilizadas são documentadas, permitindo identificar a origem, o contexto de coleta e as condições de uso.
+
+**Transparência**
+
+Os datasets utilizados são públicos e amplamente documentados, garantindo que outros pesquisadores possam reproduzir as análises realizadas.
+
+**Adequação ao propósito**
+
+Os dados são utilizados exclusivamente para **fins acadêmicos e educacionais**, não sendo destinados a aplicações clínicas reais.
 
 ---
 
-## 📊 Status do Projeto
+## Diversidade dos Dados
 
-- [x] Estruturação inicial do repositório
-- [x] Coleta de dados numéricos
-- [x] Documentação técnica dos dados numéricos
-- [x] Curadoria e limpeza dos dados numéricos
-- [x] Hospedagem dos dados em nuvem
-- [x] Coleta de dados textuais
-- [x] Coleta de dados visuais
-- [ ] Documentação completa
-- [ ] Validação final
+O dataset Heart Disease apresenta diversidade em alguns aspectos importantes:
+
+- pacientes de ambos os sexos
+- ampla faixa etária (29–77 anos)
+- diferentes perfis clínicos
+
+Entretanto, como ocorre em muitos datasets médicos, existem limitações de representatividade, já que os dados foram coletados em instituições específicas.
+
+Portanto, os resultados obtidos com modelos treinados nesses dados devem ser interpretados como **provas de conceito acadêmicas**, e não como modelos clínicos universais.
 
 ---
 
-**FIAP - Faculdade de Informática e Administração Paulista**  
-**Ano:** 2026
+## Privacidade e Proteção de Dados
+
+Todos os dados utilizados no projeto são **anonimizados e de acesso público**, não contendo informações que permitam identificar pacientes.
+
+Não são utilizados:
+
+- nomes
+- documentos pessoais
+- endereços
+- informações sensíveis identificáveis
+
+Essa abordagem garante conformidade com princípios da **Lei Geral de Proteção de Dados (LGPD)**.
+
+---
+
+## Possíveis Vieses em IA
+
+Mesmo com dados anonimizados, é importante reconhecer que modelos de IA podem reproduzir vieses presentes nos dados.
+
+Alguns possíveis pontos de atenção incluem:
+
+- predominância de pacientes masculinos no dataset
+- dados coletados em regiões específicas
+- variações nos equipamentos médicos utilizados
+
+Reconhecer essas limitações é fundamental para garantir que modelos desenvolvidos futuramente sejam interpretados com cautela.
+
+---
+
+# 🔗 Integração Multimodal de Dados
+
+O projeto CardioIA propõe a integração de três tipos de dados clínicos:
+
+| Tipo de Dados | Aplicação |
+|--------|--------|
+Dados estruturados | Modelos preditivos |
+Texto clínico | NLP e extração de conhecimento |
+Imagens médicas | Visão computacional |
+
+Essa abordagem permite o desenvolvimento futuro de **modelos multimodais de IA**, capazes de combinar diferentes fontes de informação para apoiar decisões médicas.
+
+---
+
+# 📊 Status do Projeto
+
+- Estruturação do repositório ✔
+- Coleta de dados numéricos ✔
+- Documentação do dataset ✔
+- Curadoria de dados ✔
+- Coleta de textos clínicos ✔
+- Coleta de imagens ✔
+- Documentação completa ⏳
+- Validação final ⏳
+
+---
+
+# 🏫 Instituição
+
+**FIAP — Faculdade de Informática e Administração Paulista**
+
+Projeto acadêmico desenvolvido no contexto da disciplina de Inteligência Artificial aplicada a dados.
+
+Ano: **2026**
