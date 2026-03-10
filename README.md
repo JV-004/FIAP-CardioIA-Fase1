@@ -10,6 +10,17 @@ Projeto acadêmico desenvolvido na FIAP com foco na construção de uma base de 
 
 ---
 
+# 👥 Integrantes da Equipe
+
+| Nome completo     | RM       |  FUNÇÃO                                  |
+|:-----------------:|:--------:|:----------------------------------------:|
+| Carlos            | RM566487 |  Arquiteto de Dados e Governança         |
+| Endrew            | RM563646 |  Especialista em Visão Computacional     |
+| João              | RM565999 |  Especialista em IoT e Dados Estruturados|
+| Tayna             | RM562491 |  Analista de NLP                         |
+
+---
+
 # Introdução
 
 As doenças cardiovasculares permanecem entre as principais causas de mortalidade no mundo, representando um dos maiores desafios para os sistemas de saúde modernos. O diagnóstico precoce, o monitoramento contínuo e a análise integrada de dados clínicos são fatores essenciais para reduzir riscos, melhorar prognósticos e otimizar o tratamento de pacientes.
@@ -38,18 +49,6 @@ Esses princípios são essenciais porque, em projetos de IA, **a qualidade e gov
 
 ---
 
-# 👥 Integrantes da Equipe
-
-| Nome completo     | RM       |  FUNÇÃO                                  |
-|:-----------------:|:--------:|:----------------------------------------:|
-| Carlos            | RM566487 |  Arquiteto de Dados e Governança         |
-| Endrew            | RM563646 |  Especialista em Visão Computacional     |
-| João              | RM565999 |  Especialista em IoT e Dados Estruturados|
-| Tayna             | RM562491 |  Analista de NLP                         |
-
-
----
-
 # 🎯 Objetivo do Projeto
 
 Construir a **base de dados multimodal** que permitirá o desenvolvimento futuro de modelos de Inteligência Artificial aplicados à cardiologia.
@@ -66,11 +65,14 @@ Essa integração permite a construção de **sistemas de IA multimodais**, capa
 
 # 📂 Estrutura do Repositório
 
-
 <div align="center">
-  <img src="./assets/estrutura_projeto_1.png" alt="Estrutura do Projeto CardioIA" width="500">
-  <p><i>Figura 1: Organização de diretórios e arquivos do projeto.</i></p>
-</div>
+  <img src="./assets/estrutura_projeto_1.png" alt="Estrutura do Projeto CardioIA" width="200">
+ </div>
+
+ <div align="center">
+  <img src="./assets/Cardio_IA_Estrutura_Arquivos.png" alt="Estrutura do Projeto CardioIA" width="200">
+ </div>
+ 
 A pasta **assets** contém materiais auxiliares utilizados no projeto, como textos clínicos e documentação técnica.
 
 ---
